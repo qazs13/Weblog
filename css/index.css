@@ -5,8 +5,13 @@ body
     height: 100vh;
     background-image: url("../Photos/background.jpg");
     background-position: center;
-    background-repeat: repeat-y;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: unset;
+}
+
+.fullSize
+{
+    height: 90%;
 }
 
 .navabrDesgin
@@ -35,4 +40,17 @@ body
 {
     background-color: rgb(255, 244, 179);
     color: black;
+}
+.about
+{
+    height: auto;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    margin: auto;
+    position: fixed;
+    bottom: -300px;
+    left: 12%;
+    transition: opacity 1s ease-out;
+    opacity: 0;
 }
