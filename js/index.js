@@ -1,12 +1,18 @@
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (currentScrollPos > 50) {
-    document.getElementById("about").style.opacity = 1;      
-    document.getElementById("about").style.display = "block";
-    document.getElementById("about").style.bottom = "0";
-  } else {
-    document.getElementById("about").style.display = "none";
-    document.getElementById("about").style.bottom = "-300";
-  }
-}
+document.getElementById('submit').addEventListener("click",function(e){
+
+    var userName = document.getElementById('userName').value;
+    var password = document.getElementById('password').value;
+    e.preventDefault();
+
+    if (userName == "Karim Walid" && password == "AlAlaminTowersGroup1")
+    {
+        alert("Login Successfully");
+        window.location.replace("pages/main.html");
+    }
+    else
+    {
+        alert("Invalid User Name Or Password");
+        document.getElementById('userName').value = "";
+        document.getElementById('password').value = "";
+    }
+});
