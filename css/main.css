@@ -59,3 +59,11 @@ body
     transition: opacity 1s ease-out;
     opacity: 0;
 }
+a
+{
+    display: block;
+    color: rgb(255, 244, 179);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}

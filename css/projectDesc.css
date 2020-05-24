@@ -12,6 +12,10 @@ body
     background-color: rgba(0, 0, 0, 0.507);
     border-bottom: 1px solid rgb(255, 244, 179);
 }
+.navbar-light .navbar-toggler
+{
+    background-color: rgba(255, 255, 255, 0.356);
+}
 .navbar-light .navbar-nav .nav-link
 {
     color: white;
@@ -143,4 +147,12 @@ h3
 .seperator
 {
     height: 20px;
+}
+a
+{
+    display: block;
+    color: rgb(255, 244, 179);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
 }
