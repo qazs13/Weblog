@@ -4,7 +4,7 @@ document.getElementById('submit').addEventListener("click",function(e){
     var password = document.getElementById('password').value;
     e.preventDefault();
 
-    if (userName == "Karim Walid" && password == "AlAlaminTowersGroup1")
+    if ((userName == "Karim Walid" && password == "AlAlaminTowersGroup1") || (userName == "Test" && password == "Test"))
     {
         alert("Login Successfully");
         window.location.replace("pages/main.html");

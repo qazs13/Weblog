@@ -48,6 +48,7 @@ body
 .about
 {
     height: auto;
+    width: 90%;
     display: none;
     background-color: rgba(0, 0, 0, 0.521);
     color: white;
