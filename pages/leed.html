@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Al Alamien Towers</title>
+    <title>LEED Plan</title>
     <link rel="icon" type="image/x-icon" href="../Photos/icon.jpg">    
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/all.min.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/markting.css"> 
     <link rel="stylesheet" href="../css/bar.css">
 </head>
 <body>
@@ -22,14 +22,14 @@
           <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="projectDes.html">Description </a>
+          <a class="nav-link" href="projectDes.html">Description</a>
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Historical Data
             </a>
             <div class="dropdown-menu" style="background-color: rgb(0,0,0,0.8);" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Productivity Rates</a>
+              <a class="dropdown-item" href="productivityRates.html">Productivity Rates</a>
               <div class="dropdown-divider"></div>                  
               <a class="dropdown-item" href="pilingWorks.html" >Piling Works</a>
               <div class="dropdown-divider"></div>                  
@@ -55,84 +55,23 @@
       <span style="font-size: 20px;"><a href="#" style="color: rgb(255, 244, 179);" class="nav-link"><i class="fas fa-phone" style="color: rgb(255, 244, 179);"></i> +201113340887</a></span>
     </div>
   </nav>
-      <div class="container fullSize" id="fullSize"></div>
-
-      <div class="container about" id="about">
-        <h1>About</h1>
-        <p>
-          This weblog was established in 2020 by Group#1 under the supervision of Karim Walid as the developer.
-          The aim of the weblog is for use by all participants from the group, and the coordinators. 
-          Daily news and inquiries are to be posted by weblog members for sharing and capturing knowledge.
-        </p>
+      <div class="full">
+        <h1 class="project-section">LEED Plan:</h1>
+        <div class="sections">
+            <h2>Introduction:</h2>
+            <p>
+                It will be provided a summary for executing the LEED Plan which you can download it from the button below.
+            </p>
+        </div>
+        <div class="sections">
+            <a href="../PDFs/LEED.pdf" target="_blank">View LEED Plan</a>
+        </div>
+        <div class="seperator"></div>
       </div>
-
-      <div class="contactUsButton" id="contactUsButton">
-        <span>
-          Contact US
-        </span>
-      </div>
-
-      <div class="contactUs" id="contactUs">
-        <h2>Contact Us</h2>
-        <span class="right" id="closeContact">X</span>
-        <div>
-          <label>Email</label>
-          <h3>karimwsa@gmail.com</h3>
-        </div>
-        <div>
-          <label>Phone</label>
-          <h3>(+20) 111 3340 887</h3>
-        </div>
-        <div>
-          <label>Address</label>
-          <h3>CEM Department Cairo University</h3>
-        </div>
-        <div>
-          <label></label>
-          <h3></h3>
-        </div>
-      </div>
-
-      <div class="SuggestionsButton" id="SuggestionsButton">
-        <span>
-          Suggestions
-        </span>
-      </div>
-
-      <form method="post" class="Suggestions" id="Suggestions">
-        <h2>Send Us Your Suggestions</h2>
-        <span class="right" id="closeSuggestions">X</span>
-        <div>
-          <label>Name</label>
-          <input placeholder="Please Enter Your Name" type="text" name="name" id="name"/>
-        </div>
-        <div>
-          <label>Email</label>
-          <input placeholder="name@gmail.com For Example" type="email" name="mail" id="email"/>
-        </div>
-        <div>
-          <label>Project</label>
-          <h3>Al Alamien Towers</h3>
-        </div>
-        <div>
-          <label>Suggestions</label>
-          <input placeholder="Write Here Your Suggestions"  type="text" name="comment" id="message" class="text"/>
-        </div>
-        <div>
-          <input id="sub" type="submit" name="submit" onclick="sendEmail()" id="submit" value="Send"/>
-        </div>
-        <div>
-          <label></label>
-          <h3></h3>
-        </div>
-      </form>
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="../js/all.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="../js/main.js"></script>
     <script src="../js/tablet.js"></script>
 </body>
 </html>

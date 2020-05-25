@@ -67,3 +67,193 @@ a
     font-size: 20px;
     text-align: center;
 }
+.contactUs
+{
+    display: none;
+    width: 30%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.712);
+    position: fixed;
+    top: 30%;
+    right: 0;
+    border-radius: 25px 0 0 25px;
+}
+.contactUs .right
+{
+    float: right;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5%;
+}
+.contactUs .right:hover
+{
+    cursor: pointer;
+}
+.contactUs h2
+{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 5%;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contactUs div label
+{
+    color: rgb(255, 244, 179);
+    font-size: 25px;
+    display: grid;
+    margin-left: 10%;
+}
+.contactUsButton
+{
+    display: block;
+    width: 4%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 10px 0 0 10px;
+    color: white;
+    position: fixed;
+    top: 45%;
+    right: 0.1%;
+}
+.contactUsButton span
+{
+    display: block;
+    height: 100%;
+    width: 100px;
+    line-height: 90px;
+    padding: 10px;
+    transform: rotate(-90deg);
+}
+.contactUsButton:hover
+{
+    cursor: pointer;
+}
+h3
+{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+.Suggestions
+{
+    display: none;
+    width: 70%;
+    height: 55%;
+    background-color: rgba(0, 0, 0, 0.712);
+    position: fixed;
+    top: 25%;
+    left: 0;
+    border-radius: 0 25px 25px 0;
+    overflow: auto;
+}
+.Suggestions .right
+{
+    float: right;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5%;
+}
+.Suggestions .right:hover
+{
+    cursor: pointer;
+}
+.Suggestions h2
+{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 2%;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Suggestions input[type="text"]
+{
+    display: inline-block;
+    width: 50%;
+    color: black;
+    font-size: 20px;
+    margin-left: 20%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.Suggestions input[type="email"]
+{
+    display: inline-block;
+    width: 50%;
+    color: black;
+    font-size: 20px;
+    margin-left: 20%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.Suggestions input[type="submit"]
+{
+    display: block;
+    width: 15%;
+    height: 12%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    font-size: 20px;
+    border-radius: 10px;
+    float: right;
+    margin: 5%;
+}
+.Suggestions input[type="submit"]:hover
+{
+    background-color: rgba(255, 244, 179, 0.74);
+    color: black;
+}
+.Suggestions .text
+{
+    display: inline-block;
+    width: 50%;
+    height: 250px;
+    color: black;
+    font-size: 20px;
+    margin-left: 20%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.Suggestions div label
+{
+    color: rgb(255, 244, 179);
+    font-size: 25px;
+    display: grid;
+    margin-left: 10%;
+}
+.SuggestionsButton
+{
+    display: block;
+    width: 4%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 0 10px 10px 0;
+    color: white;
+    position: fixed;
+    top: 45%;
+    left: 0.001%;
+}
+.SuggestionsButton span
+{
+    display: block;
+    height: 100%;
+    width: 100px;
+    line-height: 90px;
+    padding: 10px;
+    transform: rotate(-90deg);
+}
+.SuggestionsButton:hover
+{
+    cursor: pointer;
+}
