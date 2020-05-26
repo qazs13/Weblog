@@ -39,7 +39,7 @@ body
     display: grid;
     font-size: 18px;
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-indent: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -55,6 +55,7 @@ body
     background-color: rgba(255, 255, 255, 0.473);
     color: black;
     border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .fullSize .inputs input[type="text"]:focus
@@ -75,6 +76,7 @@ body
     background-color: rgba(255, 255, 255, 0.473);
     color: black;
     font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .fullSize .inputs input[type="password"]:focus
@@ -97,6 +99,7 @@ body
     color: black;
     font-size: 25px;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .fullSize .inputs input[type="submit"]:hover
@@ -110,4 +113,7 @@ h1
     display: block;
     padding-top: 5%;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-variant: small-caps;
 }
