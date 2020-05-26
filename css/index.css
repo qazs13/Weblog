@@ -2,24 +2,32 @@ body
 {
     padding: 0;
     margin: 0;
+    background-image: url("../Photos/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.full
+{
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.479);
+    padding-top: 7%;
 }
 
 .fullSize
 {
-    height: 60%;
+    height: 80%;
     width: 30%;
-    display: flexbox;
-    background-color: rgba(255, 255, 255, 0.39);
+    display: block;
     margin: auto;
-    margin-top: 10%;
+    background-color: rgba(255, 255, 255, 0.808);
     border-radius: 25px;
+    padding-top: 3%;
 }
 
 .fullSize .inputs
 {
-    height: 20%;
+    height: 18%;
     display: block;
     margin: auto;
     padding: 2%;
@@ -46,6 +54,16 @@ body
     padding-left: 5%;
     background-color: rgba(255, 255, 255, 0.473);
     color: black;
+    border-radius: 10px;
+}
+
+.fullSize .inputs input[type="text"]:focus
+{
+    background-color: rgb(255, 255, 255);
+    color: green;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: greenyellow;
 }
 
 .fullSize .inputs input[type="password"]
@@ -53,10 +71,19 @@ body
     margin-left: 10%;
     height: 80%;
     width: 80%;
-    border-radius: 25px;
-    padding-left: 5%;
+    border-radius: 10px;    padding-left: 5%;
     background-color: rgba(255, 255, 255, 0.473);
     color: black;
+    font-size: 16px;
+}
+
+.fullSize .inputs input[type="password"]:focus
+{
+    background-color: rgb(255, 255, 255);
+    color: green;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: greenyellow;
 }
 
 .fullSize .inputs input[type="submit"]
@@ -65,11 +92,17 @@ body
     margin-left: 10%;
     height: 80%;
     width: 80%;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.473);
     color: black;
     font-size: 25px;
     font-weight: bold;
+}
+
+.fullSize .inputs input[type="submit"]:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: green;
 }
 
 h1

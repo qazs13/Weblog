@@ -37,7 +37,8 @@ document.getElementById('fullSize').addEventListener("click", function(){
   document.getElementById('SuggestionsButton').style.display = "block";
   document.getElementById('Suggestions').style.display = "none";
 });
-/*
+
+
 document.getElementById('sub').addEventListener("click", function(e){
   var name = document.getElementById('name'),
       email = document.getElementById('email'),
@@ -45,6 +46,17 @@ document.getElementById('sub').addEventListener("click", function(e){
       e.preventDefault();
   if (name.value != "" && email.value != "" && message.value != "")
   {
+    Email.send({
+      Host: "smtp.gmail.com",
+      Username : "karimwas@gmail.com",
+      Password : "password",
+      To : "karimwas@gmail.com",
+      From : email.value,
+      Subject : "From Al Aalmien Web Site",
+      Body : message.value,
+      }).then(
+        message => alert("mail sent successfully")
+      );
     name.innerHTML = "";
     email.innerHTML = "";
     message.innerHTML = "";
@@ -53,17 +65,4 @@ document.getElementById('sub').addEventListener("click", function(e){
   {
     alert("Please Fill all Sections")
   }
-});*/
-function sendEmail() {
-	Email.send({
-	Host: "smtp.gmail.com",
-	Username : "amrwsk2@hotmail.com",
-	Password : "amrwsk",
-	To : 'amrwsk@gmail.com',
-	From : "amrwsk2@hotmail.com",
-	Subject : "<email subject>",
-	Body : "<email body>",
-	}).then(
-		message => alert("mail sent successfully")
-	);
-}
+});
