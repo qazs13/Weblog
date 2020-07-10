@@ -3,10 +3,7 @@ body
     margin: 0px;
     padding: 0px;
     height: 100vh;
-    background-image: url("../Photos/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: unset;
+    background: url("../Photos/background.jpg");
 }
 
 .fullSize
