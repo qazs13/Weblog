@@ -66,5 +66,6 @@ document.getElementById('sub').addEventListener("click", function(e){
     alert("Please Fill all Sections")
   }
 });
-</body> <script src="//code.tidio.co/pttkxcowktms3oonx7t0w1a9ehacv66c.js" async></script>
+<script src="//code.tidio.co/pttkxcowktms3oonx7t0w1a9ehacv66c.js" async></script>
+</body> 
 }
