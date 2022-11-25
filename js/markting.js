@@ -7,4 +7,7 @@ document.getElementById('viewPlan').addEventListener("click",function(e){
 
 document.getElementById('close').addEventListener("click",function(e){
     document.getElementById('previewPicture').style.display = "none";
-});    
+});  
+<script src="//code.tidio.co/pttkxcowktms3oonx7t0w1a9ehacv66c.js" async></script>
+</body> 
+}
